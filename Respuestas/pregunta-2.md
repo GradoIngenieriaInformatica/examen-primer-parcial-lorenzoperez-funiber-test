@@ -1,10 +1,5 @@
-use universidad;
-
-db.cursos.insertOne({
+db.cursos.insert({
 nombre: "Arquitectura de Software",
-nivel: "avanzado",
-creditos: 6,
-departamento: "Informatica",
-profesor: "Dr. Lopez"
-});
+nivel: "avanzado"
+})
 

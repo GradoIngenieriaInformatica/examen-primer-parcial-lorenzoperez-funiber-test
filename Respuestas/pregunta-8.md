@@ -1,2 +1,2 @@
-db.cursos.find({nivel:"avanzado"}).explain()
+db.cursos.explain()
 

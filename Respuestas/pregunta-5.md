@@ -1,4 +1,4 @@
 db.cursos.aggregate([
-{$group:{_id:"$nivel",creditosTotales:{$sum:"$creditos"}}}
+{$group:{_id:"nivel",total:{$avg:"$creditos"}}}
 ])
 
