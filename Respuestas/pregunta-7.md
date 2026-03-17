@@ -1,0 +1,2 @@
+db.cursos.createIndex({nivel:1,creditos:1})
+
